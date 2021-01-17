@@ -63,5 +63,8 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  clickHandler (e) {
+    console.log('clickHandler', e)
   }
 })

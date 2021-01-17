@@ -1,17 +1,17 @@
 export default [
   {
     text: '生产查询',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/contract-fill.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/shengchan.webp',
     myClass: 'my-class1'
   },
   {
     text: '任务查询',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/contract-check.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/dingdanchaxun-xuanzhong.webp',
     myClass: 'my-class2'
   },
   {
     text: '工程汇总查询',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/account.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/jianzhu.webp',
     myClass: 'my-class3'
   },
   {
