@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/center/center",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,7 +21,7 @@
       },
       {
         "text": "查询",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/search/search",
         "iconPath": "static/image/search.png",
         "selectedIconPath": "static/image/search.png"
       },
@@ -31,7 +33,7 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/center/center",
         "iconPath": "static/image/person.png",
         "selectedIconPath": "static/image/person.png"
       }
