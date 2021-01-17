@@ -1,0 +1,55 @@
+<view  class="box">
+  <image class="image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/cover.webp" />
+  <view class="content">
+    <menu-item wx:for="{{list}}" my-class="{{item.myClass}}" text="{{item.text}}" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/contract-fill.webp"/>
+      </menu-item>
+    <!-- <view class="row">
+      <menu-item my-class="my-class1" text="合同管理" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/contract-fill.webp"/>
+      </menu-item>
+
+      <menu-item my-class="my-class2" text="合同审核" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/contract-check.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class3" text="客户管理" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/account.webp"/>
+      </menu-item>
+    </view>
+    <view class="row">
+      <menu-item my-class="my-class3" text="供应商管理" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/supplier.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class1" text="订单管理" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/order.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class2" text="订单审核" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/orderReview.webp"/>
+      </menu-item>
+    </view>
+
+    <view class="row">
+      <menu-item my-class="my-class2" text="任务排班" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/drawUp.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class3" text="配方管理" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/recipeManagement.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class1" text="配方审核" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/recipeReview.webp"/>
+      </menu-item>
+    </view>
+
+    <view class="row">
+      <menu-item my-class="my-class1" text="回款控制" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/receivableControl.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class3" text="扫描校验" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/scan.webp"/>
+      </menu-item>
+      <menu-item my-class="my-class2" text="车辆状态" >
+        <image class="menu-image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/vehicle%20state.webp"/>
+      </menu-item>
+    </view> -->
+  </view>
+</view>

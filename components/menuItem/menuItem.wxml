@@ -1,0 +1,6 @@
+<view class="menu">
+  <view class="circle my-class">
+    <slot></slot>
+  </view>
+  <text class="text">{{text}}</text>
+</view>
