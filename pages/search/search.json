@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "查询",
   "usingComponents": {
     "page": "/components/page/page"
   }
