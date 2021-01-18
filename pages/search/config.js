@@ -16,49 +16,35 @@ export default [
   },
   {
     text: '配方查询',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/supplier.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/dingdanchaxun-xuanzhong.webp',
     myClass: 'my-class3'
   },
   {
     text: '入库查询',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/order.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/%E5%85%A5%E4%BD%8F.webp',
     myClass: 'my-class1'
   },
   {
     text: '车辆排队',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/orderReview.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/che-tianchong.webp',
     myClass: 'my-class2'
   },
 
   {
     text: '订单查询',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/drawUp.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/dingdan.webp',
     myClass: 'my-class2'
   },
   {
     text: '简仓库存',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/recipeManagement.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/kucun.webp',
     myClass: 'my-class3'
   },
   {
     text: '待检列表',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/recipeReview.webp',
+    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/jiancha.webp',
     myClass: 'my-class1'
   },
 
-  {
-    text: '回款控制',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/receivableControl.webp',
-    myClass: 'my-class1'
-  },
-  {
-    text: '扫描校验',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/scan.webp',
-    myClass: 'my-class3'
-  },
-  {
-    text: '车辆状态',
-    src: 'https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/vehicle%20state.webp',
-    myClass: 'my-class2'
-  }
+  
 ]

@@ -1,5 +1,4 @@
 <!--pages/search/search.wxml-->
-
 <view  class="box">
   <image class="image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/cover.webp" />
   <view class="content">
