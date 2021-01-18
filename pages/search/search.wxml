@@ -1,9 +1,1 @@
-<!--pages/search/search.wxml-->
-<view  class="box">
-  <image class="image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/cover.webp" />
-  <view class="content">
-    <menu-item wx:for="{{list}}" wx:key="index"  my-class="{{item.myClass}}" text="{{item.text}}" >
-        <image class="menu-image" src="{{item.src}}"/>
-    </menu-item>
-  </view>
-</view>
+<page list="{{list}}"/>

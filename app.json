@@ -18,13 +18,13 @@
         "text": "首页",
         "pagePath": "pages/index/index",
         "iconPath": "static/image/home.png",
-        "selectedIconPath": "static/image/home.png"
+        "selectedIconPath": "static/image/home-active.png"
       },
       {
         "text": "查询",
         "pagePath": "pages/search/search",
         "iconPath": "static/image/search.png",
-        "selectedIconPath": "static/image/search.png"
+        "selectedIconPath": "static/image/search-active.png"
       },
       {
         "text": "砼学",
@@ -36,7 +36,7 @@
         "text": "我的",
         "pagePath": "pages/center/center",
         "iconPath": "static/image/person.png",
-        "selectedIconPath": "static/image/person.png"
+        "selectedIconPath": "static/image/person-active.png"
       }
     ]
   },

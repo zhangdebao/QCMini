@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "menu-item": "/components/menuItem/menuItem"
+    "page": "/components/page/page"
   }
 }
