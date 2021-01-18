@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   padding-bottom: 98rpx;
 }
-menu-item {
+.menu-item {
   width: 33.33%;
   display: flex;
   justify-content: center;

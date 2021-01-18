@@ -27,7 +27,7 @@
         "selectedIconPath": "static/image/search-active.png"
       },
       {
-        "text": "砼学",
+        "text": "栓学",
         "pagePath": "pages/concretescience/concretescience",
         "iconPath": "static/image/concreteStudy.png",
         "selectedIconPath": "static/image/concreteStudy.png"
