@@ -1,0 +1,18 @@
+<view class="box">
+  <image class="image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/background.webp" />
+  <view class="search-box">
+    <view class="input-box">
+      <image class="icon-search" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/search.webp"/>
+      <input placeholder="请输入工程名称" />
+    </view>
+    <view class="icon-box">
+      <image class="icon-query" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/queryBox.webp"/>
+      <text class="query-label">查询</text>
+    </view>
+  </view>
+  <view class="content">
+    <item marginTop="0"/>
+    <item label="合同审核" background="linear-gradient(124deg, #EE8733, #F9A737);"/>
+    <item label="资金未到位" background="linear-gradient(124deg, #ED3333, #F75E5E);"/>
+  </view>
+</view>

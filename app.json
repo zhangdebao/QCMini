@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/center/center",
     "pages/search/search",
-    "pages/concretescience/concretescience"
+    "pages/concretescience/concretescience",
+    "components/orderItem/orderItem",
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "light",

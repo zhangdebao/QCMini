@@ -64,6 +64,12 @@
         {
           "name": "查询",
           "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "订单列表",
+          "pathName": "pages/order/order",
           "scene": null
         }
       ]
