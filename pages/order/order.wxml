@@ -1,5 +1,5 @@
 <view class="box">
-  <image class="image" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/background.webp" />
+  <image class="image" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201410%2F18%2F000017onmtcpgdwampcufu.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1613746438&t=92da776fcc63bb7cd8abd405366665ee" />
   <view class="search-box">
     <view class="input-box">
       <image class="icon-search" src="https://zdb-bucket.oss-cn-shanghai.aliyuncs.com/QCMini/search.webp"/>
@@ -15,4 +15,4 @@
     <item label="合同审核" background="linear-gradient(124deg, #EE8733, #F9A737);"/>
     <item label="资金未到位" background="linear-gradient(124deg, #ED3333, #F75E5E);"/>
   </view>
-</view>
+</view> 

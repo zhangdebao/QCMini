@@ -15,6 +15,6 @@
       <text class="value">正大建设有限公司</text>
     </view>
   </view>
-  <text class="button" style="background: {{background}}">{{label}}</text>
+  <text class="button" style="background: {{background}}" >{{label}}</text>
   
 </view>

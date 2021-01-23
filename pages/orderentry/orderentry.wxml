@@ -1,0 +1,75 @@
+<!--pages/orderentry/orderentry.wxml-->
+<view class="box">
+  <image class="images"
+    src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201410%2F18%2F000017onmtcpgdwampcufu.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1613746438&t=92da776fcc63bb7cd8abd405366665ee" />
+</view>
+<view class="content">
+  <view class="row">
+    <text class="lable">工程名称：</text>
+    <input class="input" value="银泰江滨商务中心项目" />
+  </view>
+  <view class="row">
+    <text class="lable">客户名称：</text>
+    <input class="input" placeholder="请输入..." />
+  </view>
+  <view class="row">
+    <text class="lable">联系人：</text>
+    <input class="input"  placeholder="请输入..." />
+  </view>
+  <view class="row">
+    <text class="lable">联系电话：</text>
+    <input class="input"  placeholder="请输入..." />
+  </view>
+  <view class="row">
+    <text class="lable">预定方量：</text>
+    <input class="input"  placeholder="请输入..." />
+  </view>
+  <view class="row">
+    <text class="lable">供应时间：</text>
+    <picker class="input date" mode="date" start="2020-01-01"  end="2021-01-01" value="{{date}}"  >
+      <text>{{date}}</text>
+    </picker>
+  </view>
+  <view class="row">
+    <text class="lable">强度：</text>
+    <picker class="input date" mode="selector" range="{{strengthRange}}" range-key="name" value="{{strengthIndex}}" bindchange="bindchange" >
+      <text>当前选择：{{strengthRange[strengthIndex].name}}</text>
+    </picker>
+  </view>
+  <view class="row">
+    <text class="lable">外加剂：</text>
+    <picker class="input date" mode="selector" range="{{strengthRange}}" range-key="name" value="{{strengthIndex}}" bindchange="bindchange" >
+      <text>当前选择：{{strengthRange[strengthIndex].name}}</text>
+    </picker>
+  </view>
+  <view class="row">
+    <text class="lable">坍落读：</text>
+    <picker class="input date" mode="selector" range="{{strengthRange}}" range-key="name" value="{{strengthIndex}}" bindchange="bindchange" >
+      <text>当前选择：{{strengthRange[strengthIndex].name}}</text>
+    </picker>
+  </view>
+  <view class="row">
+    <text class="lable">结构部位：</text>
+    <picker class="input date" mode="selector" range="{{strengthRange}}" range-key="name" value="{{strengthIndex}}" bindchange="bindchange" >
+      <text>当前选择：{{strengthRange[strengthIndex].name}}</text>
+    </picker>
+  </view>
+  <view class="row">
+    <text class="lable">结构部位：</text>
+    <input class="input"  placeholder="请输入..." />
+  </view>
+  <view class="row">
+    <text class="lable">泵送：</text>
+    <picker class="input date" mode="selector" range="{{strengthRange}}" range-key="name" value="{{strengthIndex}}" bindchange="bindchange" >
+      <text>当前选择：{{strengthRange[strengthIndex].name}}</text>
+    </picker>
+  </view>
+  <view class="row textarea">
+    <text class="lable">备注：</text>
+    <textarea placeholder="请输入..."  class="input"  name="" id="" cols="30" rows="10"></textarea>
+  </view>
+</view>
+<view class="footer">
+  <view class="button">取消</view>
+  <view class="button save">保存</view>
+</view>

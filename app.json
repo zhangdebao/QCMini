@@ -6,7 +6,8 @@
     "pages/search/search",
     "pages/concretescience/concretescience",
     "components/orderItem/orderItem",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/orderentry/orderentry"
   ],
   "window": {
     "backgroundTextStyle": "light",
